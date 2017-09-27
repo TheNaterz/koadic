@@ -49,5 +49,5 @@ class Colors(object):
         state = "/".join(state)
         return "%s%s: %s%s" % (self.colorize("(", [self.GREEN], isreadline),
                                  self.colorize("koadic", [self.BOLD], isreadline),
-                                 self.colorize(mini_state, [self.CYAN], isreadline),
+                                 self.colorize(state, [self.CYAN], isreadline),
                                  self.colorize(")" + glyph + " ", [self.GREEN], isreadline))
